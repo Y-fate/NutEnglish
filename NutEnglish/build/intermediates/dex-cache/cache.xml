@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-b62a643959d7d7968dfea692abc210fceb452730.jar" />
+    </item>
+    <item
+        jar="D:\Users\fei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-f8977212810b30549474ecce60408562ca0c3726.jar" />
+    </item>
+    <item
+        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-28da87a6f48e49642c9f4ab36a7c890dc984e8aa.jar" />
+    </item>
+    <item
+        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-6cb5f9f4e0f7ac3f3a1bc5d2ea1fb54d461d0501.jar" />
+    </item>
+
+</items>

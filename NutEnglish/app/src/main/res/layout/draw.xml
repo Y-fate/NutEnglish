@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/mainLinearLayout1"
+	android:gravity="center_horizontal"
+	android:background="@color/back_color">
+
+	<RelativeLayout
+		android:layout_height="56dp"
+		android:layout_width="match_parent"
+		android:background="@color/title_color"
+		android:id="@+id/drawRelativeLayout1">
+
+		<TextView
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:layout_height="match_parent"
+			android:layout_width="48dp"
+			android:id="@+id/mainButton1"
+			android:text="@string/search"
+			android:gravity="center_vertical|center_horizontal"
+			android:padding="4dp"
+			android:layout_margin="4dp"
+			android:textColor="@color/text1"
+			android:textStyle="bold"
+			android:textSize="18sp"
+			android:layout_alignParentLeft="true"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="48dp"
+			android:id="@+id/drawButton1"
+			android:scaleType="centerCrop"
+			android:layout_margin="4dp"
+			android:layout_alignParentRight="true"
+			android:alpha="0.8"
+			android:background="@drawable/draw_seacher_select"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="100"
+			android:hint="@string/hint"
+			android:layout_toLeftOf="@id/drawButton1"
+			android:layout_toRightOf="@id/mainButton1"
+			android:padding="5dp"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/drawEditText1"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginBottom="5dp"
+			android:textColorHint="#F2BDB4"
+			android:textColorLink="#8B3731"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_marginTop="8dp"
+		android:background="@color/back_color"
+		android:alpha="0.8">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第一单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit1"/>
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第二单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit2"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第三单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit3"/>
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第四单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit4"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第五单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit5"/>
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第六单元"
+				android:id="@+id/unit6"
+				android:textColor="@color/text1"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第七单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit7"/>
+
+			<Button
+				style="@style/drawbutton"
+				android:text="第八单元"
+				android:textColor="@color/text1"
+				android:id="@+id/unit8"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_gravity="left"
+		android:layout_margin="4dp"
+		android:background="@color/back_color"
+		android:alpha="0.8">
+
+		<ImageView
+			android:layout_height="48dp"
+			android:layout_width="48dp"
+			android:padding="8dp"
+			android:layout_gravity="right"
+			android:id="@+id/drawImageView1"
+			android:src="@drawable/image_3"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="每日一句"
+			android:layout_toRightOf="@id/drawImageView1"
+			android:layout_marginTop="15dp"
+			android:textColor="@color/text2"/>
+
+		<ImageView
+			android:layout_height="48dp"
+			android:layout_width="48dp"
+			android:layout_alignParentRight="true"
+			android:padding="8dp"
+			android:id="@+id/drawFlashImg"
+			android:src="@drawable/image_5"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="24dp"
+			android:textSize="21sp"
+			android:id="@+id/drawTextView1"
+			android:layout_below="@id/drawImageView1"
+			android:textColor="@color/text1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="16dp"
+			android:layout_below="@id/drawTextView1"
+			android:id="@+id/drawTextViewN"
+			android:textSize="24sp"
+			android:gravity="center_vertical"
+			android:textColor="@color/text2"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

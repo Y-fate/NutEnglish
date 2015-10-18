@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="topbar_bg_color">#4e6ba6</color>
+    <color name="title_color">#4e6ba6</color>
+    <color name="back_color">#ceb7a8</color>
+    <color name="color_unit">#EF84D1D9</color>
+	<color name="text1">#FFFFFF</color>
+	<color name="text2">#555555</color>
+	<color name="color1">#6b3859</color>
+	<color name="color2">#b7657b</color>
+	<color name="color3">#d47a79</color>
+	<color name="color4">#e96b5f</color>
+	<color name="color5">#f7af97</color>
+	<color name="color6">#f5bc62</color>
+	<color name="color7">#50b0a2</color>
+</resources>

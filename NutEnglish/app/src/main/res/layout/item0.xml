@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:padding="8dp"
+	android:background="@color/back_color">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:background="@drawable/main_img_shape"
+		android:alpha="0.8"
+		android:id="@+id/item0LinearLayout1"
+		android:layout_marginBottom="8dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="16dp"
+			android:textSize="39sp"
+			android:id="@+id/item0Dc"
+			android:textColor="@color/text1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="4dp"
+			android:id="@+id/item0DcN"
+			android:textSize="25sp"
+			android:textColor="@color/text2"/>
+
+		<RelativeLayout
+			android:layout_height="48dp"
+			android:layout_width="match_parent">
+
+			<ImageView
+				android:layout_height="match_parent"
+				android:layout_width="48dp"
+				android:layout_weight="1.0"
+				android:padding="8dp"
+				android:id="@+id/item0Share"
+				android:src="@drawable/yd_share_press"/>
+
+			<ImageView
+				android:layout_height="match_parent"
+				android:layout_width="48dp"
+				android:layout_weight="1.0"
+				android:layout_alignParentRight="true"
+				android:padding="8dp"
+				android:id="@+id/item0Voice"
+				android:src="@drawable/word_result_voice_white_click"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_below="@id/item0LinearLayout1"
+		android:orientation="vertical"
+		android:padding="4dp"
+		android:alpha="0.8">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="名词解释:"
+			android:textStyle="bold"
+			android:id="@+id/item0TextView1"
+			android:layout_marginTop="8dp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:padding="8dp"
+			android:textColor="@color/text2"
+			android:gravity="left|center"
+			android:id="@+id/item0Text"
+			android:textSize="22sp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

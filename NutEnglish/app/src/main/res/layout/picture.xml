@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_height="56dp"
+		android:layout_width="match_parent"
+		android:background="@color/title_color"
+		android:id="@+id/pictureRelativeLayout1">
+
+		<TextView
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:layout_height="match_parent"
+			android:layout_width="48dp"
+			android:id="@+id/mainButton1"
+			android:text="@string/search"
+			android:gravity="center_vertical|center_horizontal"
+			android:padding="5dp"
+			android:layout_margin="4dp"
+			android:textColor="#00FCD2"
+			android:textStyle="bold"
+			android:textSize="18sp"
+			android:layout_alignParentLeft="true"/>
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="48dp"
+			android:id="@+id/pButton1"
+			android:scaleType="centerCrop"
+			android:layout_margin="4dp"
+			android:layout_alignParentRight="true"
+			android:alpha="0.8"
+			android:src="@drawable/draw_seacher_select"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="100"
+			android:hint="@string/hint"
+			android:layout_toLeftOf="@id/pButton1"
+			android:layout_toRightOf="@id/mainButton1"
+			android:padding="5dp"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/pEtext"
+			android:layout_marginRight="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginBottom="5dp"
+			android:textColorHint="#B87C75"
+			android:textColorLink="#8B3731"/>
+
+	</RelativeLayout>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/viewpager"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_below="@id/pictureRelativeLayout1"/>
+
+</RelativeLayout>
+

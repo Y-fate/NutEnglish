@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="search">搜索</string>
+	<string name="hint">输入单词~~~</string>
+    <string name="welcome">欢迎使用 ！</string>
+    <string name="app_name">坚果英语</string>
+	<string name="share_text">#专业英语#今天我学会了单词</string>
+	<string name="share_text2">#坚果英语#让你快速的掌握专业英语词汇，通过游戏让你体会到学习的乐趣！小伙伴们快来下载吧！(๑• . •๑)</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
