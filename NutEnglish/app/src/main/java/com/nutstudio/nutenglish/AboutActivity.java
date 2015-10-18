@@ -12,6 +12,7 @@ public class AboutActivity extends Activity
 {
 	private String appURL="http://pan.baidu.com/share/link?shareid=1496095071&uk=1427289872";
 	private Button erweima,guanwang;
+	//branch is new
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
