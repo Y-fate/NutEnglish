@@ -11,6 +11,7 @@ import android.widget.*;
 import com.nutstudio.nutenglish.Tools.UITools;
 
 public class MainActivity extends Activity {
+    //第一阶段
     private MainFragment studyFragment = new MainFragment();
     private StartGameFragment startGameFragment = new StartGameFragment();
     private PeopleFragment peopleFragment = new PeopleFragment();
