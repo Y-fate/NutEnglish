@@ -1,7 +1,6 @@
 package com.nutstudio.nutenglish;
 
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.Gravity;
@@ -19,8 +18,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class MainFragment extends Fragment {
@@ -62,7 +59,7 @@ public class MainFragment extends Fragment {
         seacherButton.setOnClickListener(new DrawLisenner());*/
         drawflash=(ImageView)rootView.findViewById(R.id.drawFlashImg);
         drawflash.setOnClickListener(new DrawLisenner());
-        eText=(EditText)rootView.findViewById(R.id.drawEditText1);
+       // eText=(EditText)rootView.findViewById(R.id.drawEditText1);
         flashEnglish();
         return rootView;
     }
@@ -122,7 +119,7 @@ public class MainFragment extends Fragment {
     }*/
     public void jumpActivity( int jumpPager){
         Intent intent = new Intent();
-        intent.setClass(getActivity(), Picture.class);
+        intent.setClass(getActivity(), WordActivity.class);
         intent.putExtra("picture",jumpPager);
         startActivity(intent);
     }

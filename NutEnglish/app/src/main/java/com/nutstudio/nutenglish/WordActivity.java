@@ -2,21 +2,18 @@ package com.nutstudio.nutenglish;
 import android.app.*;
 import android.content.*;
 import android.content.pm.*;
-import android.graphics.*;
-import android.media.*;
 import android.os.*;
 import android.speech.tts.*;
 import android.support.v4.view.*;
 import android.view.*;
 import android.view.View.*;
 import android.widget.*;
-import java.net.*;
+
 import java.util.*;
-import android.view.animation.*;
 
 import com.nutstudio.nutenglish.Tools.UITools;
 
-public class Picture  extends Activity
+public class WordActivity extends Activity
 {private String appURL="http://pan.baidu.com/share/link?shareid=1496095071&uk=1427289872";
 	private int pagernumber;
 	private int changeNum;	
@@ -128,7 +125,7 @@ public class Picture  extends Activity
 		setContentView(R.layout.picture);
 		searchBtn=(ImageView)this.findViewById(R.id.pButton1);
 		searchEdit=(EditText)this.findViewById(R.id.pEtext);
-	   myTTS = new TextToSpeech(Picture.this, new TextToSpeech.OnInitListener(){
+	   myTTS = new TextToSpeech(WordActivity.this, new TextToSpeech.OnInitListener(){
 			   @Override
 			   public void onInit(int status)
 			   {
@@ -136,7 +133,7 @@ public class Picture  extends Activity
 					   int result = myTTS.setLanguage(Locale.US);  
 					   if (result == TextToSpeech.LANG_MISSING_DATA  
 						   || result == TextToSpeech.LANG_NOT_SUPPORTED) {  
-						   Toast.makeText(Picture.this,"数据丢失或不支持", Toast.LENGTH_SHORT).show();  
+						   Toast.makeText(WordActivity.this,"数据丢失或不支持", Toast.LENGTH_SHORT).show();
 					   }  
 				   }  
 				   // TODO: Implement this method
@@ -188,7 +185,7 @@ public class Picture  extends Activity
    }
 	public void myToast(String string){
 		Toast atoast;
-		atoast=Toast.makeText(Picture.this,string,Toast.LENGTH_SHORT);
+		atoast=Toast.makeText(WordActivity.this,string,Toast.LENGTH_SHORT);
 		atoast.setGravity(Gravity.CENTER, 0, 0);
 		atoast.show();
 }
@@ -236,7 +233,7 @@ public class Picture  extends Activity
 	}*/
 	public void  setUnitToast(){
 		while(vpager.getCurrentItem()==10){
-			Toast.makeText(Picture.this,"第二单元",Toast.LENGTH_SHORT).show();
+			Toast.makeText(WordActivity.this,"第二单元",Toast.LENGTH_SHORT).show();
 		}
 	}
 	public void setViewPager(){

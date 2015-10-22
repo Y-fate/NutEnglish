@@ -167,9 +167,6 @@ public class MainActivity extends Activity {
             startActivity(intent);
 
         } else if (item.getItemId() == 2) {
-            Intent intent = new Intent();
-            intent.setClass(MainActivity.this, AboutActivity.class);
-            startActivity(intent);
 
         } else if (item.getItemId() == 3) {
             finish();

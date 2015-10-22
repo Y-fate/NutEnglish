@@ -16,7 +16,6 @@
         android:id="@+id/erweima"
         android:layout_margin="8dp"
         android:background="@drawable/erweima"
-        android:layout_below="@id/aboutButton2"
         android:layout_centerHorizontal="true"/>
 
     <Button
