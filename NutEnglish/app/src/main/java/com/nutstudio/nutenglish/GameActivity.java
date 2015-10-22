@@ -11,6 +11,9 @@ import android.view.animation.*;
 import android.widget.*;
 import java.util.*;
 import android.util.*;
+
+import com.nutstudio.nutenglish.Tools.UITools;
+
 public class GameActivity extends Activity
 {
 	private ArrayList mylist=new ArrayList();
@@ -32,7 +35,9 @@ public class GameActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.game);	
+		new UITools(this,this).setStatusBar();
+		setContentView(R.layout.game);
+
 		GameLoadSound gLS=new GameLoadSound();
 		gLS.start();
 		gwincounter=(TextView)this.findViewById(R.id.gameWinCounter);

@@ -8,16 +8,19 @@ import android.view.*;
 import android.view.View.*;
 import android.widget.*;
 
+import com.nutstudio.nutenglish.Tools.UITools;
+
 public class AboutActivity extends Activity
 {
 	private String appURL="http://pan.baidu.com/share/link?shareid=1496095071&uk=1427289872";
 	private Button erweima,guanwang;
-	//branch is new
+	//branch is newfhrehfshdfhsbdhfvsjjjjjjjjdhd
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		// TODO: Implement this method
 		super.onCreate(savedInstanceState);
+		new UITools(this,this).setStatusBar();
 		setContentView(R.layout.about);
 		erweima=(Button)this.findViewById(R.id.erweima);
 		erweima.setOnClickListener(new OnClickListener(){

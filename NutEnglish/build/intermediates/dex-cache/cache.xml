@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-b62a643959d7d7968dfea692abc210fceb452730.jar" />
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-28da87a6f48e49642c9f4ab36a7c890dc984e8aa.jar" />
     </item>
     <item
         jar="D:\Users\fei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
@@ -16,11 +16,32 @@
         <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-f8977212810b30549474ecce60408562ca0c3726.jar" />
     </item>
     <item
-        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jar="D:\gitnutenglish\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\gitnutenglish\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-fa1116353384a2e2dad904d63ba6e0d433f8f482.jar" />
+    </item>
+    <item
+        jar="D:\gitnutenglish\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-28da87a6f48e49642c9f4ab36a7c890dc984e8aa.jar" />
+        <dex dex="D:\gitnutenglish\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-8e0860433afb6a8c3aafd309c5c7465998a245f9.jar" />
+    </item>
+    <item
+        jar="D:\gitnutenglish\NutEnglish\app\libs\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\gitnutenglish\NutEnglish\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-d7859a308de72c4412b290dbeacad7fa00f1ee98.jar" />
+    </item>
+    <item
+        jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-b62a643959d7d7968dfea692abc210fceb452730.jar" />
     </item>
     <item
         jar="E:\APP\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
@@ -28,6 +49,13 @@
         revision="22.0.1"
         sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
         <dex dex="E:\APP\NutEnglish\app\build\intermediates\pre-dexed\debug\classes-6cb5f9f4e0f7ac3f3a1bc5d2ea1fb54d461d0501.jar" />
+    </item>
+    <item
+        jar="D:\gitnutenglish\NutEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\gitnutenglish\NutEnglish\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-ab2def8ce43d46a7ac62dea07224036f1ca5755d.jar" />
     </item>
 
 </items>

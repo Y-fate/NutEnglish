@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/bg_color"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -21,66 +22,69 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="56dp"
-        android:background="@color/back_color"
+        android:background="@color/bottom_color"
         android:gravity="center"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:id="@+id/main_draw"
+            android:id="@+id/lin_main"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="4dp">
 
             <ImageView
                 android:id="@+id/img_tab1"
                 android:layout_width="fill_parent"
-                android:layout_height="40dp"
+                android:layout_height="32dp"
                 android:src="@mipmap/ic_launcher" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="16dp"
-                android:text="this" />
+                android:text="学习" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/main_game"
+            android:id="@+id/lin_game"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="4dp">
 
             <ImageView
                 android:layout_width="fill_parent"
-                android:layout_height="40dp"
+                android:layout_height="32dp"
                 android:src="@mipmap/ic_launcher" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="16dp"
-                android:text="this" />
+                android:text="游戏" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/main_other"
+            android:id="@+id/lin_people"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="4dp">
 
             <ImageView
                 android:layout_width="fill_parent"
-                android:layout_height="40dp"
+                android:layout_height="32dp"
                 android:src="@mipmap/ic_launcher" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="16dp"
-                android:text="this" />
+                android:text="更多"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

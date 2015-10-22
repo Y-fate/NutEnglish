@@ -13,4 +13,11 @@
 	<color name="color5">#f7af97</color>
 	<color name="color6">#f5bc62</color>
 	<color name="color7">#50b0a2</color>
+
+	<color name="bottom_color">#ffc4c4c4</color>
+	<color name="bg_color">#e3e3e3</color>
+	<color name="main_color">#3e4d62</color>
+	<color name="statusBar_color">#20000000</color>
+	<color name="navigationBar_color">#000001</color>
+
 </resources>

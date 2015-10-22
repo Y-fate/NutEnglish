@@ -23,7 +23,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class StudyFragment extends Fragment {
+public class MainFragment extends Fragment {
     private String dc[] = {"engine lathe", " turret lathe", "vertical turning mill ", "automatic lathe", "horizontal", " vertical", "milling machine", " boring mill ", "drilling machine ", "grinding machine ", "machine tool ", "headstock", "chuck ", "tool post", "carriage", "tailstock ", "spindle", "handwheel", "gearbox ", "guideway ", "cast iron ", "grey cast iron", "nodular cast iron", "bar stock", " workpiece", "nut", "screw", "twist drills ", "boring bars", "process", "instruction ", "mainframe", "application ", "processor ", "temporary", "permanent ", "operator", " instruction  system", "lump", " metal", "magnetic", "shield ", "workpiece ", "hydraulic", "tank", "filter", "altitude", "friction ", "AC ", "DC", " apparatus", "blower ", "controller", "crane", " excitation ", "motor ", " rectifier ", "resistor", "capacitor ", "inductor", "torque", "hoist", "comparison", "density", "diesel", "range", "vehicle ", "simplicity", "PLC", "characteristic", "command", "portable", "robot ", "universal", "weld", "conception ", "performance ", "interface ", "input ", "keyboard", "stress", "terminal", "CAD", "off-line", "CAM"};
     private String dcN[] = {"普通车床", " 转塔车床", "立式车床", "自动车床", "卧式", "立式", "铣床", " 镗床", "钻床", "磨床", " 机床", " 主轴箱", "卡盘", "刀架", "溜板箱", "尾架", "轴", " 手轮", " 齿轮箱", "导轨", "铸铁", " 灰铸铁", "球磨铸铁", "棒料", " 工件", "螺母", " 螺杆", "麻花钻", "镗杆", "加工", "指令", "大型机", " 应用", "处理器", "暂时的", "永久的", "运算数", "指令系统", " 块状", "金属", "磁的", "屏蔽", " 工件", "液压的", "水箱", "过滤器", "海拔", "摩擦", "交流", "直流", " 仪器", "鼓风机", "控制器", "起重机", " 励磁", "电动机", "整流器", "电阻器", "电容器", " 电感器", "转矩", "卷扬机", "比较", " 密度", " 柴油机", "范围", " 车辆", "简易性", "可编程控制器", " 特点", "命令", "便携式的", " 机器人", "通用的", "焊接", "概念", "性能", "接口", "输入", "键盘", "压力", "终端", "计算机辅助设计", "脱机", "计算机辅助制造"};
     private String englishText[] = {"Don‘t cry because it is over, smile because it happened", "When falling in love, some lose their head, others lose their heart.", "Happineis good health and a bad memory.", "Love is the only thing that holds the dark at bay.", "Love is a game that two can play and both win."};
@@ -58,8 +58,8 @@ public class StudyFragment extends Fragment {
         unit8.setOnClickListener(new DrawLisenner());
         drawMainText=(TextView)rootView.findViewById(R.id.drawTextView1);
         drawTextN=(TextView)rootView.findViewById(R.id.drawTextViewN);
-        seacherButton=(ImageView)rootView.findViewById(R.id.drawButton1);
-        seacherButton.setOnClickListener(new DrawLisenner());
+       /* seacherButton=(ImageView)rootView.findViewById(R.id.drawButton1);
+        seacherButton.setOnClickListener(new DrawLisenner());*/
         drawflash=(ImageView)rootView.findViewById(R.id.drawFlashImg);
         drawflash.setOnClickListener(new DrawLisenner());
         eText=(EditText)rootView.findViewById(R.id.drawEditText1);
@@ -132,7 +132,7 @@ public class StudyFragment extends Fragment {
         @Override
         public void onClick(View p1)
         {
-            if(p1.getId()==R.id.drawButton1){
+           /* if(p1.getId()==R.id.drawButton1){
 
                 List lista = Arrays.asList(dc);
                 List listb=Arrays.asList(dcN);
@@ -155,7 +155,8 @@ public class StudyFragment extends Fragment {
                     // TODO: Implement this method
                 }
             }
-            else if(p1.getId()==R.id.unit1){
+            else*/ 
+            if(p1.getId()==R.id.unit1){
                 jumpActivity(0);
             }
             else if(p1.getId()==R.id.unit2){

@@ -13,7 +13,10 @@ import android.widget.*;
 import java.net.*;
 import java.util.*;
 import android.view.animation.*;
-public class Picture  extends Activity 
+
+import com.nutstudio.nutenglish.Tools.UITools;
+
+public class Picture  extends Activity
 {private String appURL="http://pan.baidu.com/share/link?shareid=1496095071&uk=1427289872";
 	private int pagernumber;
 	private int changeNum;	
@@ -121,6 +124,7 @@ public class Picture  extends Activity
    public void onCreate(Bundle savedInstanceState)
 	{
         super.onCreate(savedInstanceState);
+		new UITools(this,this).setStatusBar();
 		setContentView(R.layout.picture);
 		searchBtn=(ImageView)this.findViewById(R.id.pButton1);
 		searchEdit=(EditText)this.findViewById(R.id.pEtext);

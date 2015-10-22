@@ -7,6 +7,9 @@ import android.support.v4.view.*;
 import java.util.*;
 import android.view.*;
 import android.view.View.*;
+
+import com.nutstudio.nutenglish.Tools.UITools;
+
 public class Welcome extends Activity
 {
 	private ImageView tab1btn,tab2btn,tab0btn;
@@ -21,7 +24,7 @@ public class Welcome extends Activity
     public void onCreate(Bundle savedInstanceState)
 	{
         super.onCreate(savedInstanceState);
-
+		new UITools(this,this).setStatusBar();
 		SharedPreferences sharedPreferences= getSharedPreferences("test",Activity.MODE_PRIVATE); 
 // 使用getString方法获得value，注意第2个参数是value的默认值 
 		String name =sharedPreferences.getString("start_count","");
